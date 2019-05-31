@@ -1,7 +1,5 @@
 module.exports = function main(inputStr) {
-    //console.log("Debug Info");
-    //return 'Hello World!';
-	//output_lcd(inputStr);
+
 	return output_lcd(inputStr);
 };
 
@@ -18,8 +16,6 @@ function output_lcd(inputStr) {
 	    '8' : ['._.', '|_|', '|_|'],
 	    '9' : ['._.', '|_|', '..|']
 	};
-	
-	//alert('Blue  Whale'.includes(' ')); //true
 
     const LINE = 3;    // 分三行扫描输出
     var outputStr = "";
@@ -35,8 +31,4 @@ function output_lcd(inputStr) {
         outputStr += "\n";
     }
 	return outputStr;
-    //outputStr = outputStr.split('\n');
-   	//console.log(outputStr[0]);
-	//console.log(outputStr[1]);
-	//console.log(outputStr[2]);
 }
