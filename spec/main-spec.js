@@ -18,7 +18,6 @@ describe('main()', () => {
             "|_. ._| |_|\n");
     });
 
-
     it('should return 7', () => {
         let actual = main("7");
         expect(actual).toBe(
